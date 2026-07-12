@@ -7,7 +7,7 @@ indicator("SMC auto entry by Kato - Filtered", overlay=true, max_lines_count=500
 swing_len   = input.int(14, title="Structural Sensitivity (Peka Tren)")
 rr_ratio    = input.float(3.0, title="Strict Risk to Reward Ratio")
 
-// SETTING WARNA FILTERED (Hanya SL, Entry, TP yang Menonjol)
+
 color_tp         = #00e676  // Target TP (Neon Green)
 color_entry      = #2196f3  // Entry Utama (Bright Blue)
 color_sl         = #ff1744  // Invalidation / SL (Neon Red)
